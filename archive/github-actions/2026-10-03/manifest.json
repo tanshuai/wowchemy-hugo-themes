@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/wowchemy-hugo-themes",
+  "repository_id": 409546663,
+  "date": "2026-10-03",
+  "source_sha": "c7616ab56818f76b3aeef318f8a46a011df5ec3a",
+  "entries": [
+    {
+      "original_path": ".github/workflows/build-test-site.yaml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/build-test-site.yaml",
+      "source_blob_sha": "5baf42f29dad1c868a704e4dad6f5970b0839ffd",
+      "sha256": "d5ce94b3e7bd1eaf6bcc1c5cee591dd17152556ea32ff30cd9c3798404eef793",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from HugoBlox/kit",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006"
+      ],
+      "secret_names": [
+        "GITHUB_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/codeql-analysis.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/codeql-analysis.yml",
+      "source_blob_sha": "969a834b427f7260efcf9232871d666b9c37870b",
+      "sha256": "81cf20bea4461f597ec4b1a97fb82806aab465f07a17a7ad1fc8926c6f7bf0ab",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from HugoBlox/kit",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-004",
+        "CFG-006"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/stale.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/stale.yml",
+      "source_blob_sha": "912ab4fd94ec4da92fe7f7f9caff5223d278a662",
+      "sha256": "947aafb4d3da95d8d5d8999eda94e041fb9b7b27e5d93aea3b91fe7222a34016",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from HugoBlox/kit",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [
+        "GITHUB_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": "go.mod",
+      "archived_path": "archive/github-actions/2026-10-03/go.mod",
+      "source_blob_sha": "5495bd9b714a6b9574cb7aeafee980c86359135c",
+      "sha256": "7328b529a7d4a0ecd85f3adf17d616cb94a83bf3033f8c21b666b54b995ac788",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "package.json",
+      "archived_path": "archive/github-actions/2026-10-03/package.json",
+      "source_blob_sha": "d9bc76797a150c53b0c15d421c072684a04f9c81",
+      "sha256": "d1650124bd03993859a598a05da24da9cc9973b8ade73a8be6a3b09caf7d3c56",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "yarn.lock",
+      "archived_path": "archive/github-actions/2026-10-03/yarn.lock",
+      "source_blob_sha": "0486b97ec3066673a4ea02586dd2949426b9b9f2",
+      "sha256": "9329bbb0bc812316b6e21666efddba581ddd8aa66d2604f47e13194997941f41",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "HugoBlox/kit",
+    "source_sha": "c7616ab56818f76b3aeef318f8a46a011df5ec3a",
+    "ahead_by": 0,
+    "behind_by": 927,
+    "status": "behind",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
